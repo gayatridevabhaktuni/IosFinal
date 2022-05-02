@@ -23,7 +23,7 @@ var bquestions: [BQuestion] = [
             correctAnswer: 2),
         BQuestion(
             question: "Who among the following is the author of the book 'India Remembered'?",
-            answers: ["pamela Mountbatten", "M K rowling", "Robert Dallek", "Stephen Hawking"],
+            answers: ["Pamela Mountbatten", "M K rowling", "Robert Dallek", "Stephen Hawking"],
             correctAnswer: 0),
         BQuestion(
             question: "Name the author who created the famous series of Books Harry Potter",

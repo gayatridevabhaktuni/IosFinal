@@ -32,6 +32,7 @@ class GkViewController: UIViewController {
     @IBOutlet weak var opt4: UIButton!
     
     @IBAction func option1(_ sender: UIButton) {
+        
         checkAnswer(idx: 0)
        
     }
@@ -59,6 +60,7 @@ class GkViewController: UIViewController {
     
         
     @IBAction func answerSelected(_ sender: UIButton) {
+      //sender.backgroundColor = .darkGray
         
 //        checkAnswer(idx: 0)
 //        if (currentQuestion!.correctAnswer == idx){
@@ -80,7 +82,9 @@ class GkViewController: UIViewController {
     }
     
     @IBAction func nextButtonPressed(_ sender: UIButton) {
+        
         loadNextQuestion()
+        
     }
     
     @IBOutlet weak var showScoree: UIButton!
